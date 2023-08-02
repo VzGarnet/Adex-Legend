@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adex Legend</title>
+    <link rel="stylesheet" href="maps.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <!-- NavBar  -->
+  <nav>
+    <div class="side-menu">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="logo">
+      <a href="index.html">
+        <img src="Asset/Logo bg.png" alt="">
+      </a>
+      
+    </div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="legends.html">Legends</a></li>
+      <li><a href="maps.html">Maps</a></li>
+      <li><a href="about us.html">About Us</a></li>
+      <li><a href="registration.html">Registration</a></li>
+    </ul>
+  </nav>
+    <!-- End navbar -->
+
+    <!-- Header -->
+    <div class="header">
+        <img src="Asset/Maps Header.png">
+        <a href="#Arenas">
+          <button id="button">Arenas Maps</button>
+        </a>
+    
+        <a href="#Battle">
+          <button id="btn">Battle Royale Maps</button>
+        </a>
+        </div>
+    <!-- End Header -->
+
+
+    <!-- Arenas content -->
+        <div id="Arenas">
+          <img src="Asset/Arenas Header.png" alt="">
+        </div>
+    
+        <div class="maps-btn">
+            <button class="bt-maps" onclick="currentDiv(1)">SkyHome</button>
+            <button class="bt-maps" onclick="currentDiv(2)">Yard</button>
+            <button class="bt-maps" onclick="currentDiv(3)">Abandoned City</button>
+            <button class="bt-maps" onclick="currentDiv(4)">Heaven</button>
+        </div>
+    
+          <div class="maps">
+            <img class="arena-maps" src="Asset/SkyLine.png" alt="">
+            <img class="arena-maps" src="Asset/Encore.png" alt="">
+            <img class="arena-maps" src="Asset/Party Crasher.png" alt="">
+            <img class="arena-maps" src="Asset/Rotating Maps.png" alt="">
+          </div>
+
+    <!-- End arenas content -->
+          <div id="Battle">
+              <img src="Asset/Battle Royale Header.png" alt="">
+          </div>
+
+          <div class="br-btn">
+              <button class="bt-br" onclick="plusSlides(1)">Grand Canyon</button>
+              <button class="bt-br" onclick="plusSlides(2)">World Industry</button>
+              <button class="bt-br" onclick="plusSlides(3)">City</button>
+              <button class="bt-br" onclick="plusSlides(4)">Storm Island</button>
+          </div>
+
+          <div class="maps">
+            <img class="maps-btle" src="Asset/Kings Canyon.png" alt="">
+            <img class="maps-btle" src="Asset/World Edge.png" alt="">
+            <img class="maps-btle" src="Asset/Olympus.png" alt="">
+            <img class="maps-btle" src="Asset/Storm Point.png" alt="">
+
+          </div>
+
+          <div class="footer">
+            <img src="Asset/adex ..png" alt="">
+            <div class="socmed">
+                <a href="https://www.facebook.com/playapex" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/playapex/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitch.tv/playapex" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a href="https://twitter.com/PlayApex" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/playapex" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>
+                © 2022, Adex Legend, and any associated logo are trademarks,
+                service marks, and / or registered trademarks of SLC, Inc.
+            </p>
+          </div>
+   
+
+</body>
+<script src="maps.js"></script>
+<script src="Maps Battle.js"></script>
+<script src="index.js"></script>
+
+</html>

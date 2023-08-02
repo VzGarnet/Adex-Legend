@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.regis{
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    margin-left: 38%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+} 
+
+
+.container{
+    height: 400px;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .container img{
+    width: 25%;
+    align-self: center;
+  }
+  
+  form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  label{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+   input, select{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #C4C4C4;
+    margin-bottom: 3%;
+    border: none;
+  } 
+   
+  
+  input[type="submit"]{
+    background-color: #CC4C34;
+    color: black;
+    width: 27%;
+    height: 25%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    align-self: center;
+    cursor: pointer;
+   
+  }
+  
+  input[type="submit"]:hover{
+    background-color: white;
+  }
+
+  .footer{
+    margin-top: 5%;
+  }
+
+
+  @media screen and (min-width: 320px) {
+  .regis{
+      font-size: 25px;
+      margin-left: 20%;
+  } 
+
+  .container img{
+    display: none;
+    
+  }
+  
+  label{
+    margin-left: -20%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  input, select{
+    margin-left: -25%;
+    height: 50px;
+    width: 160%;
+  } 
+
+  input[placeholder]{
+    font-size: 65%;
+  }
+   
+  
+  input[type="submit"]{
+    width: 65%;
+    height: 20%;
+    margin-left: 10%;
+    padding-left: 11%;
+    padding-top: 5%;
+    font-size: 8px;
+  }  
+  }
+
+  @media screen and (min-width: 375px) {
+    .regis{
+        margin-left: 24%;
+    } 
+  
+    label{
+      margin-left: -20%;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    input[placeholder]{
+      font-size: 75%;
+    }
+     
+    
+    input[type="submit"]{
+      width: 70%;
+      height: 100%;
+      padding-left: 12%;
+      padding-top: 8%;
+      padding-bottom: 6%;
+      font-size: 10px;
+    }  
+    }
+
+    @media screen and (min-width: 425px){
+      .regis{
+          margin-left: 27%;
+      } 
+    
+      input[type="submit"]{
+        padding-left: 14%;
+        padding-bottom: 8%;
+      
+      }  
+      }
+
+      @media screen and (min-width: 768px) {
+        .regis{
+            margin-left: 32%;
+            font-size: 35px;
+        } 
+      
+        input[type="submit"]{
+          width: 55%;
+          height: 15%;
+          padding-left: 5%;
+          padding-top: 5%;
+          padding-bottom: 10%;
+          font-size: 20px;
+        
+        }  
+        }
+
+        @media screen and (min-width: 1024px) and (max-width: 1300px){
+          .regis{
+              font-size: 35px;
+              margin-left: 38%;
+          } 
+        
+          .container img{
+            align-self: center;
+            display: flex;
+            margin-top: -10%;
+          }
+          
+          label{
+            margin-left: 0%;
+            font-size: 14px;
+            font-weight: 600;
+          }
+          
+          input, select{
+            margin-left: 0%;
+            height: 50px;
+            width: 110%;
+          } 
+        
+          input[placeholder]{
+            font-size: 75%;
+          }
+           
+          
+          input[type="submit"]{
+            width: 50%;
+            height: 15%;
+            padding-left: 8%;
+            padding-top: 5%;
+            font-size: 20px;
+          }  
+          }
+
+          @media screen and (min-width: 1440px) {
+            .regis{
+                font-size: 46px;
+                margin-left: 39%;
+            } 
+          
+            .container img{
+              align-self: center;
+              display: flex;
+              margin-top: -10%;
+            }
+            
+            label{
+              margin-left: 0%;
+              font-size: 22px;
+              font-weight: 600;
+            }
+            
+            input, select{
+              margin-left: 0%;
+              height: 50px;
+              width: 110%;
+            } 
+          
+            input[placeholder]{
+              font-size: 100%;
+            }
+             
+            
+            input[type="submit"]{
+              width: 40%;
+              padding-left: 6%;
+              padding-top: 5%;
+              font-size: 25px;
+            }  
+
+            .footer{
+              margin-top: 10%;
+            }
+
+            }

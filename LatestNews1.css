@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+.header img{
+    width: 100%;
+}
+
+.Title{
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+    margin-left: 4vw;
+}
+
+#Title-content{
+    font-size: 20px;
+}
+
+.Title-Content-1{
+    font-family: 'Teko', sans-serif;
+    font-size: 14px;
+    margin-left: 4vw;
+}
+
+#Content-1{
+    font-size: 20px;
+    line-height: 0%;
+}
+
+.imgnews1 img{
+    width: 40vw;
+    margin-left: 4vw;
+}
+
+#Text-Latest-News-Bottom{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    margin-left: 4vw;
+}   
+
+@media screen and (min-width:750px) {
+    #Title-content{
+        font-size: 23px;
+    }
+    
+    .Title-Content-1{
+        font-size: 15px;
+    }
+    
+    #Content-1{
+        font-size: 23px;
+    }
+
+    #Text-Latest-News-Bottom{
+        font-size: 23px;
+    }   
+}
+
+@media screen and (min-width:1020px) {
+    .Title{
+        font-size: 20px;
+    }
+
+    #Title-content{
+        font-size: 30px;
+    }
+    
+    .Title-Content-1{
+        font-size: 20px;
+    }
+    
+    #Content-1{
+        font-size: 30px;
+    }
+
+    #Text-Latest-News-Bottom{
+        font-size: 30px;
+    }  
+}
+
+@media screen and (min-width:1440px) {
+    .Title{
+        font-size: 30px;
+    }
+
+    #Title-content{
+        font-size: 45px;
+    }
+    
+    .Title-Content-1{
+        font-size: 30px;
+    }
+    
+    #Content-1{
+        font-size: 45px;
+    }
+
+    #Text-Latest-News-Bottom{
+        font-size: 45px;
+    }  
+}

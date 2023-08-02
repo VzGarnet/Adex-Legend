@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+#Loabheader img{
+    width: 100%;
+}
+
+.LoabContent{
+    font-family: 'Teko', sans-serif;
+}
+
+#Loab{
+    font-size: 45px;
+    font-weight: 900px;
+    align-items: center;
+    margin-left: 45vw;
+}
+
+#LoabRole{
+    font-size: 24px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 41.5vw;
+    line-height: 0%;
+}
+
+#LoabDesc{
+    font-size: 20px;
+    margin-left: 4vw;
+    font-weight: 300;
+    padding-top: 5%;
+    margin-right: 25vw;
+}
+
+#LoabImage img{
+    position: absolute;
+    width: 25vw;
+    left: 73vw;
+    top: 66vh;
+}
+
+#LoabSkill img{
+    width: 100%;
+    margin-top: 8vh;
+    display: block;
+}
+
+@media screen and (min-width:320px) and (max-width:450px) {
+    #Loab{
+        font-size: 35px;
+        margin-left: 45vw;
+    }
+    
+    #LoabRole{
+        font-size: 20px;
+        margin-left: 38vw;
+    }
+    
+    #LoabDesc{
+        padding-top: 10%;
+    }
+    
+    #LoabImage img{
+        width: 25vw;
+        top: 66vh;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:768px) {
+    #Loab{
+        font-size: 50px;
+        margin-left: 45vw;
+    }
+    
+    #LoabRole{
+        font-size: 25px;
+        margin-left: 41vw;
+    }
+    
+    #LoabDesc{
+        padding-top: 4%;
+    }
+    
+    #LoabImage img{
+        width: 25vw;
+        top: 40vh;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px){
+    #Loab{
+        font-size: 60px;
+        margin-left: 45vw;
+    }
+    
+    #LoabRole{
+        font-size: 30px;
+        margin-left: 41.5vw;
+    }
+    
+    #LoabDesc{
+        font-size: 28px;
+        padding-top: 4%;
+    }
+    
+    #LoabImage img{
+        width: 25vw;
+        top: 55vh;
+    }
+}
+
+@media screen and (min-width:1440px){
+    #Loab{
+        font-size: 85px;
+        margin-left: 45vw;
+    }
+    
+    #LoabRole{
+        font-size: 50px;
+        margin-left: 40.5vw;
+    }
+    
+    #LoabDesc{
+        font-size: 40px;
+        padding-top: 4%;
+    }
+    
+    #LoabImage img{
+        width: 27vw;
+        top: 50vh;
+    }
+}

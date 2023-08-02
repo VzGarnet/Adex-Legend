@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+.header img{
+    width: 100%;
+}
+
+.title{
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+#content{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    margin-left: 22vw;
+}
+
+.arenas img{
+    width: 35%;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.arenas-maps{
+    display: flex;
+    align-items: center;
+}
+
+.arenas-maps img{
+    position: relative;
+    width: 100%;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.arenas-maps .seeMore{
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    width: 30vw;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 35.5%;
+}
+
+.btn-maps{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 2%;
+}
+
+.btn-maps:hover{
+    background-color: #cc4c34;
+    width: 20vw;
+}
+
+@media screen and (min-width:320px) and (max-width:350px) {
+    .arenas-maps .seeMore{
+        font-size: 10px;
+        width: 20vw;
+        margin-top: 25%;
+        margin-left: 40%;
+    }
+
+    .title{
+        font-family: 'Teko', sans-serif;
+        font-size: 8px;
+        margin-left: 7vw;
+    }
+    
+    #content{
+        font-family: 'Teko', sans-serif;
+        font-size: 13px;
+        margin-left: 7vw;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:430px){
+    .arenas-maps .seeMore{
+        font-size: 10px;
+        width: 20vw;
+        margin-top: 25%;
+        margin-left: 40%;
+    }
+
+    .title{
+        font-family: 'Teko', sans-serif;
+        font-size: 8px;
+        margin-left: 6vw;
+    }
+
+    #content{
+        font-family: 'Teko', sans-serif;
+        font-size: 13px;
+        margin-left: 12vw;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 770px) {
+    .arenas-maps .seeMore{
+        font-size: 20px;
+        width: 35vw;
+        margin-top: 20%;
+        margin-left: 32.5%;
+    }
+
+    .title{
+        font-family: 'Teko', sans-serif;
+        font-size: 15px;
+        margin-left: 5vw;
+        align-items: center;
+    }
+
+    #content{
+        font-family: 'Teko', sans-serif;
+        font-size: 25px;
+        margin-left: 14vw;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .arenas-maps .seeMore{
+        font-size: 20px;
+        width: 35vw;
+        margin-top: 20%;
+        margin-left: 32.5%;
+    }
+
+    .title{
+        font-family: 'Teko', sans-serif;
+        font-size: 20px;
+        margin-left: 4vw;
+        align-items: center;
+    }
+
+    #content{
+        font-family: 'Teko', sans-serif;
+        font-size: 30px;
+        margin-left: 17vw;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .arenas-maps .seeMore{
+        font-size: 35px;
+        width: 45vw;
+        margin-top: 20%;
+        margin-left: 27.5%;
+    }
+
+    .title{
+        font-family: 'Teko', sans-serif;
+        font-size: 28px;
+        margin-left: 5vw;
+        align-items: center;
+    }
+
+    #content{
+        font-family: 'Teko', sans-serif;
+        font-size: 45px;
+        margin-left: 15vw;
+    }
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+#Rampheader img{
+    width: 100%;
+}
+
+.RampContent{
+    font-family: 'Teko', sans-serif;
+}
+
+#Ramp{
+    font-size: 45px;
+    font-weight: 900px;
+    align-items: center;
+    margin-left: 53.5vw;
+}
+
+#RampRole{
+    font-size: 24px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 52.5vw;
+    line-height: 0%;
+}
+
+#RampDesc{
+    font-size: 20px;
+    margin-left: 29vw;
+    font-weight: 300;
+    padding-top: 3%;
+    margin-right: 4vw;
+}
+
+#RampImage img{
+    position: absolute;
+    width: 30vw;
+    left: 1vw;
+    top: 66vh;
+}
+
+#RampSkill img{
+    width: 100%;
+    margin-top: 8vh;
+    display: block;
+}
+
+@media screen and (max-width:320px) {
+    #Ramp{
+        font-size: 32px;
+        margin-left: 55vw;
+    }
+    
+    #RampRole{
+        font-size: 23px;
+        margin-left: 49vw;
+    }
+    
+    #RampDesc{
+        padding-top: 10%;
+    }
+    
+    #RampImage img{
+        width: 30vw;
+        top: 66vh;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 428px) {
+    #RampRole{
+        font-size: 23px;
+        margin-left: 50.5vw;
+    }
+    
+    #RampDesc{
+        padding-top: 8%;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width:768px) {
+    #Ramp{
+        font-size: 47px;
+        margin-left: 55vw;
+    }
+    
+    #RampRole{
+        font-size: 25px;
+        margin-left: 53.3vw;
+    }
+    
+    #RampDesc{
+        padding-top: 4%;
+    }
+    
+    #RampImage img{
+        width: 26vw;
+        top: 55vh;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px) {
+    #Ramp{
+        font-size: 55px;
+        margin-left: 55vw;
+    }
+    
+    #RampRole{
+        font-size: 35px;
+        margin-left: 52.5vw;
+    }
+    
+    #RampDesc{
+        font-size: 30px;
+        padding-top: 4%;
+    }
+    
+    #RampImage img{
+        width: 26vw;
+        top: 55vh;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #Ramp{
+        font-size: 85px;
+        margin-left: 55vw;
+    }
+    
+    #RampRole{
+        font-size: 45px;
+        margin-left: 53.3vw;
+    }
+    
+    #RampDesc{
+        font-size: 40px;
+        padding-top: 4%;
+    }
+    
+    #RampImage img{
+        width: 28vw;
+        top: 50vh;
+    }   
+}

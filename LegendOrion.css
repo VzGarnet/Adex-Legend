@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+#Orionheader img{
+    width: 100%;
+}
+
+.OrionContent{
+    font-family: 'Teko', sans-serif;
+}
+
+#Orion{
+    font-size: 45px;
+    font-weight: 900px;
+    align-items: center;
+    margin-left: 49.5vw;
+}
+
+#OrionRole{
+    font-size: 24px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 46vw;
+    line-height: 0%;
+}
+
+#OrionDesc{
+    font-size: 20px;
+    margin-left: 25vw;
+    font-weight: 300;
+    padding-top: 3%;
+    margin-right: 4vw;
+}
+
+#OrionImage img{
+    position: absolute;
+    width: 30vw;
+    left: -2vw;
+    top: 65vh;
+}
+
+#OrionSkill img{
+    width: 100%;
+    margin-top: 8vh;
+    display: block;
+}
+
+@media screen and (max-width:320px) {
+    #Orion{
+        font-size: 32px;
+        margin-left: 47vw;
+    }
+    
+    #OrionRole{
+        font-size: 23px;
+        margin-left: 32vw;
+    }
+    
+    #OrionDesc{
+        padding-top: 10%;
+    }
+    
+    #OrionImage img{
+        width: 26vw;
+        top: 75vh;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:428px) {
+    #OrionRole{
+        font-size: 23px;
+        margin-left: 39.5vw;
+    }
+
+    #OrionDesc{
+        padding-top: 8%;
+    }
+}
+
+@media screen and (min-width:430px) and (max-width:768px){
+    #Orion{
+        font-size: 47px;
+        margin-left: 47vw;
+    }
+    
+    #OrionRole{
+        font-size: 25px;
+        margin-left: 41.5vw;
+    }
+    
+    #OrionDesc{
+        padding-top: 4%;
+    }
+    
+    #OrionImage img{
+        width: 26vw;
+        top: 45vh;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px){
+    #Orion{
+        font-size: 55px;
+        margin-left: 50vw;
+    }
+    
+    #OrionRole{
+        font-size: 35px;
+        margin-left: 44vw;
+    }
+    
+    #OrionDesc{
+        font-size: 30px;
+        padding-top: 4%;
+    }
+    
+    #OrionImage img{
+        width: 33vw;
+        top: 53vh;
+    }
+}
+
+@media screen and (min-width:1440px){
+    #Orion{
+        font-size: 85px;
+        margin-left: 47vw;
+    }
+    
+    #OrionRole{
+        font-size: 45px;
+        margin-left: 41.5vw;
+    }
+    
+    #OrionDesc{
+        font-size: 40px;
+        padding-top: 4%;
+    }
+    
+    #OrionImage img{
+        width: 30vw;
+        top: 48vh;
+    }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+.header img{
+    width: 100%;
+}
+
+.BR-1 img{
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 9vw;
+}
+
+.BR-2 img{
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 9vw;
+}
+
+.BR-3 img{
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 9vw;
+}
+
+.BrMaps{
+    display: flex;
+    align-items: center;
+}
+
+.BrMaps img{
+    position: relative;
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.BrMaps .seeMore{
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    width: 35vw;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 32.5%;
+}
+
+.btn-maps{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 2%;
+}
+
+.btn-maps:hover{
+    background-color: #cc4c34;
+    width: 20vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px){
+    .BrMaps .seeMore{
+        font-size: 10px;
+        width: 25vw;
+        margin-top: 27%;
+        margin-left: 36.5%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 770px){
+    .BrMaps .seeMore{
+        font-size: 20px;
+        width: 35vw;
+        margin-top: 20%;
+        margin-left: 32%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .BrMaps .seeMore{
+        font-size: 35px;
+        width: 40vw;
+        margin-top: 25%;
+        margin-left: 30%;
+    }
+}

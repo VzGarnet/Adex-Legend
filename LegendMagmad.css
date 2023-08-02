@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+#Madheader img{
+    width: 100%;
+}
+
+.MadContent{
+    font-family: 'Teko', sans-serif;
+}
+
+#Mad{
+    font-size: 45px;
+    font-weight: 900px;
+    align-items: center;
+    margin-left: 47vw;
+}
+
+#MadRole{
+    font-size: 24px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 47.8vw;
+    line-height: 0%;
+}
+
+#MadDesc{
+    font-size: 20px;
+    margin-left: 25vw;
+    font-weight: 300;
+    padding-top: 3%;
+    margin-right: 4vw;
+}
+
+#MadImage img{
+    position: absolute;
+    width: 35vw;
+    left: -4vw;
+    top: 63vh;
+}
+
+#MadSkill img{
+    width: 100%;
+    margin-top: 8vh;
+    display: block;
+}
+
+@media screen and (max-width:320px) {
+    #Mad{
+        font-size: 32px;
+        margin-left: 47vw;
+    }
+    
+    #MadRole{
+        font-size: 18px;
+        margin-left: 48vw;
+    }
+    
+    #MadDesc{
+        padding-top: 10%;
+    }
+    
+    #MadImage img{
+        width: 30vw;
+        top: 75vh;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    #MadRole{
+        margin-left: 48.5vw;
+    }
+    
+    #MadDesc{
+        padding-top: 8%;
+    }
+}
+
+@media screen and (min-width:430px) and (max-width:768px) {
+    #Mad{
+        font-size: 45px;
+        margin-left: 47vw;
+    }
+    
+    #MadRole{
+        font-size: 25px;
+        margin-left: 47.5vw;
+    }
+    
+    #MadDesc{
+        padding-top: 4%;
+    }
+    
+    #MadImage img{
+        width: 30vw;
+        top: 45vh;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px) {
+    #Mad{
+        font-size: 55px;
+        margin-left: 47vw;
+    }
+    
+    #MadRole{
+        font-size: 30px;
+        margin-left: 47.5vw;
+    }
+    
+    #MadDesc{
+        font-size: 27px;
+        padding-top: 4%;
+    }
+    
+    #MadImage img{
+        width: 30vw;
+        top: 54vh;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #Mad{
+        font-size: 80px;
+        margin-left: 47vw;
+    }
+    
+    #MadRole{
+        font-size: 45px;
+        margin-left: 47.5vw;
+    }
+    
+    #MadDesc{
+        font-size: 40px;
+        padding-top: 4%;
+    }
+    
+    #MadImage img{
+        width: 35vw;
+        top: 50vh;
+    }
+}

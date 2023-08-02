@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E1D8;
+    
+}
+
+#Kryielheader img{
+    width: 100%;
+}
+
+.KryielContent{
+    font-family: 'Teko', sans-serif;
+}
+
+#Kryiel{
+    font-size: 45px;
+    font-weight: 900px;
+    align-items: center;
+    margin-left: 54vw;
+}
+
+#KryielRole{
+    font-size: 24px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 52vw;
+    line-height: 0%;
+}
+
+#KryielDesc{
+    font-size: 20px;
+    margin-left: 25vw;
+    font-weight: 300;
+    padding-top: 5%;
+    margin-right: 4vw;
+    margin-left: 30vw;
+}
+
+#KryielImage img{
+    position: absolute;
+    width: 30vw;
+    left: 1vw;
+    top: 80vh;
+}
+
+#KryielSkill img{
+    width: 100%;
+    margin-top: 8vh;
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+    #KryielImage img{
+        width: 25vw;
+        top: 50vh;
+    }
+
+    #KryielRole{
+        font-size: 25px;
+        font-weight: 300;
+        align-items: center;
+        margin-left: 49vw;
+        line-height: 0%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #Kryiel{
+        font-size: 35px;
+        margin-left: 55vw;
+    }
+    
+    #KryielRole{
+        font-size: 22px;
+        margin-left: 48vw;
+    }
+    
+    #KryielDesc{
+        padding-top: 10%;
+    }
+    
+    #KryielImage img{
+        width: 30vw;
+        top: 80vh;
+    } 
+}
+
+@media screen and (min-width:430px) and (max-width:768px) {
+    #Kryiel{
+        font-size: 45px;
+        margin-left: 55vw;
+    }
+    
+    #KryielRole{
+        font-size: 25px;
+        margin-left: 53vw;
+    }
+    
+    #KryielDesc{
+        padding-top: 5%;
+    }
+    
+    #KryielImage img{
+        width: 29vw;
+        top: 55vh;
+    } 
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px) {
+    #KryielImage img{
+        width: 25vw;
+        top: 50vh;
+    }
+
+    #KryielDesc{
+        padding-top: 3%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #Kryiel{
+        font-size: 75px;
+        margin-left: 55vw;
+    }
+    
+    #KryielRole{
+        font-size: 45px;
+        margin-left: 53vw;
+    }
+    
+    #KryielDesc{
+        font-size: 40px;
+        padding-top: 3%;
+        margin-left: 36vw;
+    }
+
+    #KryielImage img{
+        width: 35vw;
+        top: 50vh;
+    }
+}
